@@ -25,8 +25,9 @@ def data_clean(ticker_dataframe: pd.core):
     return ticker_dataframe
 
 
-# *****************************************************************************
-# Testing the function
-print(data_clean(tickerDf).head())
-print(tickerDf.head())
+if __name__ == '__main__':
+    # *************************************************************************
+    # Testing the function
+    print(data_clean(tickerDf).head())
+    print(tickerDf.head())
 # *****************************************************************************
